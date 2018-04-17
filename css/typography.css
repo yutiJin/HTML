@@ -1,0 +1,38 @@
+//排版 主要是字体的大小和形式
+
+body {
+	font-family: "arial, helvetica, sans-serif";
+}
+body * {
+	font-size: 1em;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+header img {
+	overflow: hidden;
+}
+header nav {
+	font-family: "arial, helvetica, sans-serif";
+}
+header nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+article {
+	line-height: 2em;
+}
+article p {
+	margin: 1em 0;
+	font-size: 86%;
+}
+h1 {
+	font-family: georgia, "times new roman", sans-serif;
+	font: 2.4em normal;
+	margin-bottom: .5em;
+}
+#description {
+	font-size: 1.2em;
+}

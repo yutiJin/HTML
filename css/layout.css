@@ -1,0 +1,99 @@
+//布局  整体的结构
+
+section,header,article,nav {
+	display: block;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 1em 10%;
+	background-image: url(../img/header.jpeg);
+	/*添加页面的滚动轴*/
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 59.3em;
+}
+header nav{
+	border-bottom-width: 0;
+	border-top-width:0 ;
+	padding-left: 13%;
+}
+header ul {
+	width: 100%;
+	overflow: hidden;
+}
+header nav li {
+	display: inline;
+}
+header nav li a {
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	/*border-right: .1em solid;*/
+}
+article {
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 10%;	
+}
+article nav {
+	padding: .5em;
+}
+#imagegallery li {
+	display: inline;
+	padding: 5%;
+}
+#placeholder {
+	padding-left: 20%;
+}
+/*live 里的列表*/
+table {
+	padding-left: 15%;
+	/*padding-bottom: 15%;*/
+}
+td {
+	padding: .5em 3em;
+}
+th {
+	padding: .5em .5em;
+	color: #EEDDCC;
+	background-color: #444455;
+}
+tr td {
+	color: #222233;
+	background-color: #FFE4C4;
+}
+/*highlight样式的添加*/
+/*tr.odd td {
+	color: #222233;
+	background-color: #EECC88;
+}*/
+td.highlight {
+	color: #222233;
+	background-color: #cba;
+}
+
+label {
+	display: block;
+}
+fieldset {
+	border: 0;
+}
+
+/*不好看,没有审美*/
+/*#about {
+	background-image: url(../img/认真的韩雪.jpg);
+}
+#photo {
+	background-image: url(../img/navbar.jpg);
+}
+#live {
+	background-image: url(../img/bakground.jpeg);
+}
+#contact {
+	background-image: url(../img/contact.jpg);
+}*/

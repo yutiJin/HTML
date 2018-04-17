@@ -1,0 +1,66 @@
+body {
+	color:bisque;
+	background-color: #334;
+}
+a:link {
+	color: #445;
+	/*background-color: #eb6;*/
+}
+a:visited {
+	color: #345;
+	background-color: #eb6;
+}
+a:hover {
+	color: #667;
+	background-color: #edc;
+}
+a:active {
+	color: #778;
+	background-color: #ec8;
+}
+header {
+	color: #EECC88;
+	background-color: #333344;
+	border-color: #666677;
+}
+header nav {
+	color: #455;
+	background-color: #333344;
+	border-color: #666677;
+}
+article {
+	color: #223;
+	background-color: #edc;
+	border-color: #666677;
+}
+header nav ul {
+	border-color: #99a;
+}
+header nav a:link, header nav a:visited {
+	color: #eef;
+	/*背景颜色为透明*/
+	background-color: transparent;   
+	border-color: #9999AA;
+}
+header nav a:hover{
+	color: #445;
+	background-color: #EEBB66;   
+}
+header nav a:active{
+	color: #445;
+	background-color: #EEBB66;   
+}
+/* link: 未被访问的链接
+ * visited: 已被访问的链接
+ * hover: 悬浮链接
+ * active: 活动链接
+ */
+
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active {
+	color: #EEEEFF;
+	background-color: #799;
+}
+
